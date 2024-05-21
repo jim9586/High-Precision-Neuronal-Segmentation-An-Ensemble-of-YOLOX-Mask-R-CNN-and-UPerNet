@@ -26,7 +26,7 @@ Li, Z., Yin, Y., Wei, Z., Luo, Y., Xu, G., & Xie, Y. (2024). High-Precision Neur
 ## Authors
 1. [Zhengning Li](https://github.com/jim9586) 
 2. 
-3. 
+3. [Zibu Wei](https://github.com/dominik024)
 4. 
 5. 
 6. [Ying Xie](https://github.com/Florax1218) 
