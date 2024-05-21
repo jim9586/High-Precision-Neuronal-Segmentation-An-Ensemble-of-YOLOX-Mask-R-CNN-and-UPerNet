@@ -1,0 +1,54 @@
+17.3s 1 Collecting pycocotools
+17.4s 2 Downloading pycocotools-2.0.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (403 kB)
+17.4s 3 [?25l[K     |▉                               | 10 kB 19.2 MB/s eta 0:00:01[K     |█▋                              | 20 kB 21.8 MB/s eta 0:00:01[K     |██▍                             | 30 kB 5.3 MB/s eta 0:00:01[K     |███▎                            | 40 kB 6.6 MB/s eta 0:00:01[K     |████                            | 51 kB 6.0 MB/s eta 0:00:01[K     |████▉                           | 61 kB 4.9 MB/s eta 0:00:01[K     |█████▊                          | 71 kB 5.3 MB/s eta 0:00:01[K     |██████▌                         | 81 kB 5.4 MB/s eta 0:00:01[K     |███████▎                        | 92 kB 5.9 MB/s eta 0:00:01[K     |████████▏                       | 102 kB 6.5 MB/s eta 0:00:01[K     |█████████                       | 112 kB 6.5 MB/s eta 0:00:01[K     |█████████▊                      | 122 kB 6.5 MB/s eta 0:00:01[K     |██████████▋                     | 133 kB 6.5 MB/s eta 0:00:01[K     |███████████▍                    | 143 kB 6.5 MB/s eta 0:00:01[K     |████████████▏                   | 153 kB 6.5 MB/s eta 0:00:01[K     |█████████████                   | 163 kB 6.5 MB/s eta 0:00:01[K     |█████████████▉                  | 174 kB 6.5 MB/s eta 0:00:01[K     |██████████████▋                 | 184 kB 6.5 MB/s eta 0:00:01[K     |███████████████▍                | 194 kB 6.5 MB/s eta 0:00:01[K     |████████████████▎               | 204 kB 6.5 MB/s eta 0:00:01[K     |█████████████████               | 215 kB 6.5 MB/s eta 0:00:01[K     |█████████████████▉              | 225 kB 6.5 MB/s eta 0:00:01[K     |██████████████████▊             | 235 kB 6.5 MB/s eta 0:00:01[K     |███████████████████▌            | 245 kB 6.5 MB/s eta 0:00:01[K     |████████████████████▎           | 256 kB 6.5 MB/s eta 0:00:01[K     |█████████████████████▏          | 266 kB 6.5 MB/s eta 0:00:01[K     |██████████████████████          | 276 kB 6.5 MB/s eta 0:00:01[K     |██████████████████████▊         | 286 kB 6.5 MB/s eta 0:00:01[K     |███████████████████████▋        | 296 kB 6.5 MB/s eta 0:00:01[K     |████████████████████████▍       | 307 kB 6.5 MB/s eta 0:00:01[K     |█████████████████████████▏      | 317 kB 6.5 MB/s eta 0:00:01[K     |██████████████████████████      | 327 kB 6.5 MB/s eta 0:00:01[K     |██████████████████████████▉     | 337 kB 6.5 MB/s eta 0:00:01[K     |███████████████████████████▋    | 348 kB 6.5 MB/s eta 0:00:01[K     |████████████████████████████▍   | 358 kB 6.5 MB/s eta 0:00:01[K     |█████████████████████████████▎  | 368 kB 6.5 MB/s eta 0:00:01[K     |██████████████████████████████  | 378 kB 6.5 MB/s eta 0:00:01[K     |██████████████████████████████▉ | 389 kB 6.5 MB/s eta 0:00:01[K     |███████████████████████████████▊| 399 kB 6.5 MB/s eta 0:00:01[K     |████████████████████████████████| 403 kB 6.5 MB/s
+17.4s 4 [?25hRequirement already satisfied: numpy in /opt/conda/lib/python3.7/site-packages (from pycocotools) (1.19.5)
+17.4s 5 Requirement already satisfied: matplotlib>=2.1.0 in /opt/conda/lib/python3.7/site-packages (from pycocotools) (3.4.3)
+17.4s 6 Requirement already satisfied: cycler>=0.10 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools) (0.10.0)
+17.4s 7 Requirement already satisfied: python-dateutil>=2.7 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools) (2.8.0)
+17.4s 8 Requirement already satisfied: kiwisolver>=1.0.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools) (1.3.2)
+17.4s 9 Requirement already satisfied: pillow>=6.2.0 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools) (8.2.0)
+17.4s 10 Requirement already satisfied: pyparsing>=2.2.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools) (2.4.7)
+17.4s 11 Requirement already satisfied: six in /opt/conda/lib/python3.7/site-packages (from cycler>=0.10->matplotlib>=2.1.0->pycocotools) (1.16.0)
+25.9s 12 Installing collected packages: pycocotools
+26.2s 13 Successfully installed pycocotools-2.0.7
+26.2s 14 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
+26.8s 15 /opt/conda/lib/python3.7/site-packages/papermill/iorw.py:50: FutureWarning: pyarrow.HadoopFileSystem is deprecated as of 2.0.0, please use pyarrow.fs.HadoopFileSystem instead.
+26.8s 16 from pyarrow import HadoopFileSystem
+28.7s 17 Training Set Shape: (73585, 8) - 606 Images - Memory Usage: 4.49 MB
+52.0s 18 Training Set Shape: (75557, 8) - 2578 Images - Memory Usage: 4.61 MB
+2373.9s 19 annotation_count
+2373.9s 20 ----------------
+2373.9s 21 cort Mean: 33.6781  -  Median: 30.0000  -  Std: 16.4964 - Min: 4.0000 -  Max: 108.0000
+2373.9s 22 shsy5y Mean: 337.3290  -  Median: 324.0000  -  Std: 149.5954 - Min: 49.0000 -  Max: 790.0000
+2373.9s 23 astro Mean: 80.3206  -  Median: 73.0000  -  Std: 64.1304 - Min: 5.0000 -  Max: 594.0000
+2374.5s 24 mask_area
+2374.5s 25 ---------
+2374.5s 26 cort Mean: 240.1645  -  Median: 208.0000  -  Std: 139.1664 - Min: 33.0000 -  Max: 2054.0000
+2374.5s 27 shsy5y Mean: 224.4963  -  Median: 193.0000  -  Std: 133.9388 - Min: 30.0000 -  Max: 2254.0000
+2374.7s 28 astro Mean: 905.8057  -  Median: 665.0000  -  Std: 855.1877 - Min: 37.0000 -  Max: 13327.0000
+2375.8s 29 image_mean
+2375.8s 30 ----------
+2375.8s 31 cort Mean: 127.9549  -  Median: 127.9589  -  Std: 0.0518 - Min: 127.7864 -  Max: 128.1188
+2375.8s 32 shsy5y Mean: 127.9764  -  Median: 127.9737  -  Std: 0.0646 - Min: 127.7955 -  Max: 128.2085
+2375.8s 33 astro Mean: 127.9898  -  Median: 127.9916  -  Std: 0.0325 - Min: 127.7521 -  Max: 128.1443
+2376.4s 34 image_std
+2376.4s 35 ---------
+2376.4s 36 cort Mean: 14.5775  -  Median: 14.4896  -  Std: 2.6951 - Min: 8.4036 -  Max: 21.9799
+2376.4s 37 shsy5y Mean: 13.2764  -  Median: 13.6487  -  Std: 2.4507 - Min: 3.8756 -  Max: 18.1883
+2376.4s 38 astro Mean: 8.6610  -  Median: 8.3320  -  Std: 2.2959 - Min: 3.1541 -  Max: 24.1878
+2381.0s 39 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2381.0s 40 FutureWarning,
+2381.0s 41 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+2381.2s 42 [NbConvertApp] Writing 502299 bytes to __notebook__.ipynb
+2384.0s 43 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2384.0s 44 FutureWarning,
+2384.0s 45 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+2384.9s 46 [NbConvertApp] Support files will be in __results___files/
+2384.9s 47 [NbConvertApp] Making directory __results___files
+2384.9s 48 [NbConvertApp] Making directory __results___files
+2384.9s 49 [NbConvertApp] Making directory __results___files
+2384.9s 50 [NbConvertApp] Making directory __results___files
+2384.9s 51 [NbConvertApp] Making directory __results___files
+2384.9s 52 [NbConvertApp] Making directory __results___files
+2384.9s 53 [NbConvertApp] Making directory __results___files
+2384.9s 54 [NbConvertApp] Writing 353376 bytes to __results__.html

@@ -1,0 +1,28 @@
+308.6s 1 /opt/conda/lib/python3.7/site-packages/papermill/iorw.py:50: FutureWarning: pyarrow.HadoopFileSystem is deprecated as of 2.0.0, please use pyarrow.fs.HadoopFileSystem instead.
+308.6s 2 from pyarrow import HadoopFileSystem
+335.1s 3 Model loaded: ../input/resnest200-5folds-3classes/resnest200_f1.pth
+342.2s 4 Model loaded: ../input/resnest200-5folds-3classes/resnest200_f2.pth
+350.3s 5 Model loaded: ../input/resnest200-5folds-3classes/resnest200_f3.pth
+357.1s 6 Model loaded: ../input/resnest200-5folds-3classes/resnest200_f4.pth
+364.1s 7 Model loaded: ../input/resnest200-5folds-3classes/resnest200_f5.pth
+383.0s 8 Model loaded: ../input/detectron2-swint-l/mask_rcnn_swint_L_FPN_3x_best_1.pth
+401.4s 9 Model loaded: ../input/detectron2-swint-l/mask_rcnn_swint_L_FPN_3x_best_2.pth
+420.2s 10 Model loaded: ../input/detectron2-swint-l/mask_rcnn_swint_L_FPN_3x_best_3.pth
+441.4s 11 Model loaded: ../input/detectron2-swint-l/mask_rcnn_swint_L_FPN_3x_best_4.pth
+460.4s 12 Model loaded: ../input/detectron2-swint-l/mask_rcnn_swint_L_FPN_3x_best_5.pth
+460.9s 13 /opt/conda/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+460.9s 14 To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /usr/local/src/pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+460.9s 15 return torch.floor_divide(self, other)
+1415.6s 16 0.3452898859988704
+1515.6s 17 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1515.6s 18 FutureWarning,
+1515.6s 19 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+1516.0s 20 [NbConvertApp] Writing 2123520 bytes to __notebook__.ipynb
+1518.5s 21 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1518.5s 22 FutureWarning,
+1518.5s 23 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1519.9s 24 [NbConvertApp] Support files will be in __results___files/
+1519.9s 25 [NbConvertApp] Making directory __results___files
+1519.9s 26 [NbConvertApp] Making directory __results___files
+1519.9s 27 [NbConvertApp] Making directory __results___files
+1519.9s 28 [NbConvertApp] Writing 471203 bytes to __results__.html

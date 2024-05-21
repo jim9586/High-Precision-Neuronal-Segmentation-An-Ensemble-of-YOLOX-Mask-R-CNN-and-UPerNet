@@ -1,0 +1,263 @@
+15.1s 1 /opt/conda/lib/python3.7/site-packages/papermill/iorw.py:50: FutureWarning: pyarrow.HadoopFileSystem is deprecated as of 2.0.0, please use pyarrow.fs.HadoopFileSystem instead.
+15.1s 2 from pyarrow import HadoopFileSystem
+20.7s 3 Images in train set:           560
+20.7s 4 Annotations in train set:      67815
+20.7s 5 Images in validation set:      46
+20.7s 6 Annotations in validation set: 5770
+31.1s 7 Starting epoch 1 of 30
+330.8s 8 [Epoch  1 / 30]
+330.8s 9 [Epoch  1 / 30] Train mask-only loss:   0.378, classifier loss   0.507
+330.8s 10 [Epoch  1 / 30] Val mask-only loss  :   0.320, classifier loss   0.375
+330.8s 11 [Epoch  1 / 30]
+330.8s 12 [Epoch  1 / 30] Train loss:   1.885. Val loss:   1.634 [299 secs]
+330.8s 13 [Epoch  1 / 30]
+330.8s 14 Starting epoch 2 of 30
+614.0s 15 [Epoch  2 / 30]
+614.0s 16 [Epoch  2 / 30] Train mask-only loss:   0.323, classifier loss   0.355
+614.0s 17 [Epoch  2 / 30] Val mask-only loss  :   0.308, classifier loss   0.348
+614.0s 18 [Epoch  2 / 30]
+614.0s 19 [Epoch  2 / 30] Train loss:   1.547. Val loss:   1.503 [283 secs]
+614.0s 20 [Epoch  2 / 30]
+614.0s 21 Starting epoch 3 of 30
+904.9s 22 [Epoch  3 / 30]
+904.9s 23 [Epoch  3 / 30] Train mask-only loss:   0.316, classifier loss   0.336
+904.9s 24 [Epoch  3 / 30] Val mask-only loss  :   0.311, classifier loss   0.333
+904.9s 25 [Epoch  3 / 30]
+904.9s 26 [Epoch  3 / 30] Train loss:   1.483. Val loss:   1.522 [290 secs]
+904.9s 27 [Epoch  3 / 30]
+904.9s 28 Starting epoch 4 of 30
+1190.4s 29 [Epoch  4 / 30]
+1190.4s 30 [Epoch  4 / 30] Train mask-only loss:   0.314, classifier loss   0.323
+1190.4s 31 [Epoch  4 / 30] Val mask-only loss  :   0.305, classifier loss   0.311
+1190.4s 32 [Epoch  4 / 30]
+1190.4s 33 [Epoch  4 / 30] Train loss:   1.454. Val loss:   1.450 [285 secs]
+1190.4s 34 [Epoch  4 / 30]
+1190.4s 35 Starting epoch 5 of 30
+1473.6s 36 [Epoch  5 / 30]
+1473.6s 37 [Epoch  5 / 30] Train mask-only loss:   0.311, classifier loss   0.312
+1473.6s 38 [Epoch  5 / 30] Val mask-only loss  :   0.305, classifier loss   0.307
+1473.6s 39 [Epoch  5 / 30]
+1473.6s 40 [Epoch  5 / 30] Train loss:   1.427. Val loss:   1.412 [283 secs]
+1473.6s 41 [Epoch  5 / 30]
+1473.6s 42 Starting epoch 6 of 30
+1755.8s 43 [Epoch  6 / 30]
+1755.8s 44 [Epoch  6 / 30] Train mask-only loss:   0.309, classifier loss   0.311
+1755.8s 45 [Epoch  6 / 30] Val mask-only loss  :   0.309, classifier loss   0.306
+1755.8s 46 [Epoch  6 / 30]
+1755.8s 47 [Epoch  6 / 30] Train loss:   1.413. Val loss:   1.461 [282 secs]
+1755.8s 48 [Epoch  6 / 30]
+1755.8s 49 Starting epoch 7 of 30
+2034.9s 50 [Epoch  7 / 30]
+2034.9s 51 [Epoch  7 / 30] Train mask-only loss:   0.308, classifier loss   0.300
+2034.9s 52 [Epoch  7 / 30] Val mask-only loss  :   0.305, classifier loss   0.310
+2034.9s 53 [Epoch  7 / 30]
+2034.9s 54 [Epoch  7 / 30] Train loss:   1.396. Val loss:   1.416 [279 secs]
+2034.9s 55 [Epoch  7 / 30]
+2034.9s 56 Starting epoch 8 of 30
+2312.6s 57 [Epoch  8 / 30]
+2312.6s 58 [Epoch  8 / 30] Train mask-only loss:   0.307, classifier loss   0.298
+2312.6s 59 [Epoch  8 / 30] Val mask-only loss  :   0.305, classifier loss   0.294
+2312.6s 60 [Epoch  8 / 30]
+2312.6s 61 [Epoch  8 / 30] Train loss:   1.386. Val loss:   1.380 [277 secs]
+2312.6s 62 [Epoch  8 / 30]
+2312.6s 63 Starting epoch 9 of 30
+2598.2s 64 [Epoch  9 / 30]
+2598.2s 65 [Epoch  9 / 30] Train mask-only loss:   0.307, classifier loss   0.297
+2598.2s 66 [Epoch  9 / 30] Val mask-only loss  :   0.302, classifier loss   0.297
+2598.2s 67 [Epoch  9 / 30]
+2598.2s 68 [Epoch  9 / 30] Train loss:   1.382. Val loss:   1.397 [285 secs]
+2598.2s 69 [Epoch  9 / 30]
+2598.2s 70 Starting epoch 10 of 30
+2883.7s 71 [Epoch 10 / 30]
+2883.7s 72 [Epoch 10 / 30] Train mask-only loss:   0.304, classifier loss   0.297
+2883.7s 73 [Epoch 10 / 30] Val mask-only loss  :   0.304, classifier loss   0.285
+2883.7s 74 [Epoch 10 / 30]
+2883.7s 75 [Epoch 10 / 30] Train loss:   1.369. Val loss:   1.389 [285 secs]
+2883.7s 76 [Epoch 10 / 30]
+2883.7s 77 Starting epoch 11 of 30
+3169.0s 78 [Epoch 11 / 30]
+3169.0s 79 [Epoch 11 / 30] Train mask-only loss:   0.304, classifier loss   0.291
+3169.0s 80 [Epoch 11 / 30] Val mask-only loss  :   0.300, classifier loss   0.299
+3169.0s 81 [Epoch 11 / 30]
+3169.0s 82 [Epoch 11 / 30] Train loss:   1.364. Val loss:   1.393 [285 secs]
+3169.0s 83 [Epoch 11 / 30]
+3169.0s 84 Starting epoch 12 of 30
+3449.3s 85 [Epoch 12 / 30]
+3449.3s 86 [Epoch 12 / 30] Train mask-only loss:   0.304, classifier loss   0.289
+3449.3s 87 [Epoch 12 / 30] Val mask-only loss  :   0.301, classifier loss   0.291
+3449.3s 88 [Epoch 12 / 30]
+3449.3s 89 [Epoch 12 / 30] Train loss:   1.353. Val loss:   1.405 [280 secs]
+3449.3s 90 [Epoch 12 / 30]
+3449.3s 91 Starting epoch 13 of 30
+3734.9s 92 [Epoch 13 / 30]
+3734.9s 93 [Epoch 13 / 30] Train mask-only loss:   0.303, classifier loss   0.284
+3734.9s 94 [Epoch 13 / 30] Val mask-only loss  :   0.303, classifier loss   0.290
+3734.9s 95 [Epoch 13 / 30]
+3734.9s 96 [Epoch 13 / 30] Train loss:   1.342. Val loss:   1.388 [285 secs]
+3734.9s 97 [Epoch 13 / 30]
+3734.9s 98 Starting epoch 14 of 30
+4019.5s 99 [Epoch 14 / 30]
+4019.5s 100 [Epoch 14 / 30] Train mask-only loss:   0.303, classifier loss   0.285
+4019.5s 101 [Epoch 14 / 30] Val mask-only loss  :   0.307, classifier loss   0.291
+4019.5s 102 [Epoch 14 / 30]
+4019.5s 103 [Epoch 14 / 30] Train loss:   1.340. Val loss:   1.409 [284 secs]
+4019.5s 104 [Epoch 14 / 30]
+4019.5s 105 Starting epoch 15 of 30
+4306.4s 106 [Epoch 15 / 30]
+4306.4s 107 [Epoch 15 / 30] Train mask-only loss:   0.302, classifier loss   0.284
+4306.4s 108 [Epoch 15 / 30] Val mask-only loss  :   0.299, classifier loss   0.310
+4306.4s 109 [Epoch 15 / 30]
+4306.4s 110 [Epoch 15 / 30] Train loss:   1.334. Val loss:   1.406 [286 secs]
+4306.4s 111 [Epoch 15 / 30]
+4306.4s 112 Starting epoch 16 of 30
+4584.7s 113 [Epoch 16 / 30]
+4584.7s 114 [Epoch 16 / 30] Train mask-only loss:   0.302, classifier loss   0.281
+4584.7s 115 [Epoch 16 / 30] Val mask-only loss  :   0.298, classifier loss   0.290
+4584.7s 116 [Epoch 16 / 30]
+4584.7s 117 [Epoch 16 / 30] Train loss:   1.328. Val loss:   1.381 [278 secs]
+4584.7s 118 [Epoch 16 / 30]
+4584.7s 119 Starting epoch 17 of 30
+4863.8s 120 [Epoch 17 / 30]
+4863.8s 121 [Epoch 17 / 30] Train mask-only loss:   0.302, classifier loss   0.290
+4863.8s 122 [Epoch 17 / 30] Val mask-only loss  :   0.302, classifier loss   0.284
+4863.8s 123 [Epoch 17 / 30]
+4863.8s 124 [Epoch 17 / 30] Train loss:   1.333. Val loss:   1.384 [279 secs]
+4863.8s 125 [Epoch 17 / 30]
+4863.8s 126 Starting epoch 18 of 30
+5145.1s 127 [Epoch 18 / 30]
+5145.1s 128 [Epoch 18 / 30] Train mask-only loss:   0.301, classifier loss   0.279
+5145.1s 129 [Epoch 18 / 30] Val mask-only loss  :   0.306, classifier loss   0.287
+5145.1s 130 [Epoch 18 / 30]
+5145.1s 131 [Epoch 18 / 30] Train loss:   1.316. Val loss:   1.419 [281 secs]
+5145.1s 132 [Epoch 18 / 30]
+5145.1s 133 Starting epoch 19 of 30
+5420.3s 134 [Epoch 19 / 30]
+5420.3s 135 [Epoch 19 / 30] Train mask-only loss:   0.299, classifier loss   0.272
+5420.3s 136 [Epoch 19 / 30] Val mask-only loss  :   0.298, classifier loss   0.288
+5420.3s 137 [Epoch 19 / 30]
+5420.3s 138 [Epoch 19 / 30] Train loss:   1.300. Val loss:   1.377 [275 secs]
+5420.3s 139 [Epoch 19 / 30]
+5420.3s 140 Starting epoch 20 of 30
+5708.9s 141 [Epoch 20 / 30]
+5708.9s 142 [Epoch 20 / 30] Train mask-only loss:   0.299, classifier loss   0.274
+5708.9s 143 [Epoch 20 / 30] Val mask-only loss  :   0.295, classifier loss   0.292
+5708.9s 144 [Epoch 20 / 30]
+5708.9s 145 [Epoch 20 / 30] Train loss:   1.303. Val loss:   1.391 [288 secs]
+5708.9s 146 [Epoch 20 / 30]
+5708.9s 147 Starting epoch 21 of 30
+5993.7s 148 [Epoch 21 / 30]
+5993.7s 149 [Epoch 21 / 30] Train mask-only loss:   0.298, classifier loss   0.272
+5993.7s 150 [Epoch 21 / 30] Val mask-only loss  :   0.297, classifier loss   0.282
+5993.7s 151 [Epoch 21 / 30]
+5993.7s 152 [Epoch 21 / 30] Train loss:   1.299. Val loss:   1.364 [284 secs]
+5993.7s 153 [Epoch 21 / 30]
+5993.7s 154 Starting epoch 22 of 30
+6279.2s 155 [Epoch 22 / 30]
+6279.2s 156 [Epoch 22 / 30] Train mask-only loss:   0.299, classifier loss   0.268
+6279.2s 157 [Epoch 22 / 30] Val mask-only loss  :   0.303, classifier loss   0.285
+6279.2s 158 [Epoch 22 / 30]
+6279.2s 159 [Epoch 22 / 30] Train loss:   1.293. Val loss:   1.384 [285 secs]
+6279.2s 160 [Epoch 22 / 30]
+6279.2s 161 Starting epoch 23 of 30
+6567.1s 162 [Epoch 23 / 30]
+6567.1s 163 [Epoch 23 / 30] Train mask-only loss:   0.299, classifier loss   0.268
+6567.1s 164 [Epoch 23 / 30] Val mask-only loss  :   0.300, classifier loss   0.286
+6567.1s 165 [Epoch 23 / 30]
+6567.1s 166 [Epoch 23 / 30] Train loss:   1.290. Val loss:   1.371 [288 secs]
+6567.1s 167 [Epoch 23 / 30]
+6567.1s 168 Starting epoch 24 of 30
+6852.6s 169 [Epoch 24 / 30]
+6852.6s 170 [Epoch 24 / 30] Train mask-only loss:   0.297, classifier loss   0.264
+6852.6s 171 [Epoch 24 / 30] Val mask-only loss  :   0.299, classifier loss   0.301
+6852.6s 172 [Epoch 24 / 30]
+6852.6s 173 [Epoch 24 / 30] Train loss:   1.274. Val loss:   1.395 [285 secs]
+6852.6s 174 [Epoch 24 / 30]
+6852.6s 175 Starting epoch 25 of 30
+7135.1s 176 [Epoch 25 / 30]
+7135.1s 177 [Epoch 25 / 30] Train mask-only loss:   0.297, classifier loss   0.265
+7135.1s 178 [Epoch 25 / 30] Val mask-only loss  :   0.300, classifier loss   0.287
+7135.1s 179 [Epoch 25 / 30]
+7135.1s 180 [Epoch 25 / 30] Train loss:   1.275. Val loss:   1.372 [282 secs]
+7135.1s 181 [Epoch 25 / 30]
+7135.1s 182 Starting epoch 26 of 30
+7416.8s 183 [Epoch 26 / 30]
+7416.8s 184 [Epoch 26 / 30] Train mask-only loss:   0.296, classifier loss   0.265
+7416.8s 185 [Epoch 26 / 30] Val mask-only loss  :   0.299, classifier loss   0.281
+7416.8s 186 [Epoch 26 / 30]
+7416.8s 187 [Epoch 26 / 30] Train loss:   1.275. Val loss:   1.358 [281 secs]
+7416.8s 188 [Epoch 26 / 30]
+7416.8s 189 Starting epoch 27 of 30
+7698.0s 190 [Epoch 27 / 30]
+7698.0s 191 [Epoch 27 / 30] Train mask-only loss:   0.297, classifier loss   0.265
+7698.0s 192 [Epoch 27 / 30] Val mask-only loss  :   0.312, classifier loss   0.288
+7698.0s 193 [Epoch 27 / 30]
+7698.0s 194 [Epoch 27 / 30] Train loss:   1.270. Val loss:   1.427 [281 secs]
+7698.0s 195 [Epoch 27 / 30]
+7698.0s 196 Starting epoch 28 of 30
+7981.8s 197 [Epoch 28 / 30]
+7981.8s 198 [Epoch 28 / 30] Train mask-only loss:   0.295, classifier loss   0.260
+7981.8s 199 [Epoch 28 / 30] Val mask-only loss  :   0.296, classifier loss   0.291
+7981.8s 200 [Epoch 28 / 30]
+7981.8s 201 [Epoch 28 / 30] Train loss:   1.260. Val loss:   1.412 [283 secs]
+7981.8s 202 [Epoch 28 / 30]
+7981.8s 203 Starting epoch 29 of 30
+8264.9s 204 [Epoch 29 / 30]
+8264.9s 205 [Epoch 29 / 30] Train mask-only loss:   0.295, classifier loss   0.260
+8264.9s 206 [Epoch 29 / 30] Val mask-only loss  :   0.298, classifier loss   0.282
+8264.9s 207 [Epoch 29 / 30]
+8264.9s 208 [Epoch 29 / 30] Train loss:   1.255. Val loss:   1.356 [283 secs]
+8264.9s 209 [Epoch 29 / 30]
+8264.9s 210 Starting epoch 30 of 30
+8552.8s 211 [Epoch 30 / 30]
+8552.8s 212 [Epoch 30 / 30] Train mask-only loss:   0.295, classifier loss   0.259
+8552.8s 213 [Epoch 30 / 30] Val mask-only loss  :   0.299, classifier loss   0.299
+8552.8s 214 [Epoch 30 / 30]
+8552.8s 215 [Epoch 30 / 30] Train loss:   1.254. Val loss:   1.403 [288 secs]
+8552.8s 216 [Epoch 30 / 30]
+8555.3s 217 Score: 0.1596922048762428
+8556.1s 218 Score: 0.5946710897797856
+8562.2s 219 Score: 0.14959083529396877
+8562.7s 220 Loading: pytorch_model-e1.bin
+8670.4s 221 Loading: pytorch_model-e2.bin
+8811.5s 222 Loading: pytorch_model-e3.bin
+8906.4s 223 Loading: pytorch_model-e4.bin
+9033.2s 224 Loading: pytorch_model-e5.bin
+9138.5s 225 Loading: pytorch_model-e6.bin
+9285.5s 226 Loading: pytorch_model-e7.bin
+9390.5s 227 Loading: pytorch_model-e8.bin
+9545.2s 228 Loading: pytorch_model-e9.bin
+9713.3s 229 Loading: pytorch_model-e10.bin
+9853.7s 230 Loading: pytorch_model-e11.bin
+9988.9s 231 Loading: pytorch_model-e12.bin
+10124.5s 232 Loading: pytorch_model-e13.bin
+10267.7s 233 Loading: pytorch_model-e14.bin
+10415.5s 234 Loading: pytorch_model-e15.bin
+10553.8s 235 Loading: pytorch_model-e16.bin
+10705.8s 236 Loading: pytorch_model-e17.bin
+10826.3s 237 Loading: pytorch_model-e18.bin
+10940.9s 238 Loading: pytorch_model-e19.bin
+11097.6s 239 Loading: pytorch_model-e20.bin
+11235.0s 240 Loading: pytorch_model-e21.bin
+11376.0s 241 Loading: pytorch_model-e22.bin
+11539.5s 242 Loading: pytorch_model-e23.bin
+11703.8s 243 Loading: pytorch_model-e24.bin
+11842.4s 244 Loading: pytorch_model-e25.bin
+12002.2s 245 Loading: pytorch_model-e26.bin
+12158.2s 246 Loading: pytorch_model-e27.bin
+12313.9s 247 Loading: pytorch_model-e28.bin
+12461.7s 248 Loading: pytorch_model-e29.bin
+12612.2s 249 Loading: pytorch_model-e30.bin
+12756.1s 250 29
+12757.5s 251 Loading: pytorch_model-e29.bin
+12774.4s 252 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+12774.4s 253 FutureWarning,
+12774.4s 254 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+12775.3s 255 [NbConvertApp] Writing 982151 bytes to __notebook__.ipynb
+12778.1s 256 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+12778.1s 257 FutureWarning,
+12778.1s 258 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+12780.2s 259 [NbConvertApp] Support files will be in __results___files/
+12780.2s 260 [NbConvertApp] Making directory __results___files
+12780.2s 261 [NbConvertApp] Making directory __results___files
+12780.2s 262 [NbConvertApp] Making directory __results___files
+12780.2s 263 [NbConvertApp] Writing 709199 bytes to __results__.html

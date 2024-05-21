@@ -1,0 +1,143 @@
+12.6s 1 /opt/conda/lib/python3.7/site-packages/papermill/iorw.py:50: FutureWarning: pyarrow.HadoopFileSystem is deprecated as of 2.0.0, please use pyarrow.fs.HadoopFileSystem instead.
+12.6s 2 from pyarrow import HadoopFileSystem
+15.1s 3 Looking in links: ../input/detectron-05/whls
+15.2s 4 Processing /kaggle/input/detectron-05/whls/pycocotools-2.0.2/dist/pycocotools-2.0.2.tar
+16.5s 5 Requirement already satisfied: setuptools>=18.0 in /opt/conda/lib/python3.7/site-packages (from pycocotools==2.0.2) (58.0.4)
+16.5s 6 Requirement already satisfied: cython>=0.27.3 in /opt/conda/lib/python3.7/site-packages (from pycocotools==2.0.2) (0.29.24)
+16.5s 7 Requirement already satisfied: matplotlib>=2.1.0 in /opt/conda/lib/python3.7/site-packages (from pycocotools==2.0.2) (3.4.3)
+16.5s 8 Requirement already satisfied: python-dateutil>=2.7 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools==2.0.2) (2.8.0)
+16.5s 9 Requirement already satisfied: cycler>=0.10 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools==2.0.2) (0.10.0)
+16.5s 10 Requirement already satisfied: kiwisolver>=1.0.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools==2.0.2) (1.3.2)
+16.5s 11 Requirement already satisfied: numpy>=1.16 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools==2.0.2) (1.19.5)
+16.5s 12 Requirement already satisfied: pillow>=6.2.0 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools==2.0.2) (8.2.0)
+16.5s 13 Requirement already satisfied: pyparsing>=2.2.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib>=2.1.0->pycocotools==2.0.2) (2.4.7)
+16.5s 14 Requirement already satisfied: six in /opt/conda/lib/python3.7/site-packages (from cycler>=0.10->matplotlib>=2.1.0->pycocotools==2.0.2) (1.16.0)
+16.5s 15 Building wheels for collected packages: pycocotools
+23.6s 16 Building wheel for pycocotools (setup.py) ... [?25l- \ | / - \ | / done
+23.6s 17 [?25h  Created wheel for pycocotools: filename=pycocotools-2.0.2-cp37-cp37m-linux_x86_64.whl size=272231 sha256=55fea76290c4c57e568cd5365d45f0236ef8db348a06d59ca93f9c19db4318c7
+23.6s 18 Stored in directory: /root/.cache/pip/wheels/d2/09/29/2054c6cc4599cf39f1c52ce3c20bfb50be696caa5d5ba460c9
+23.6s 19 Successfully built pycocotools
+31.8s 20 Installing collected packages: pycocotools
+32.2s 21 Successfully installed pycocotools-2.0.2
+32.2s 22 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
+34.1s 23 Looking in links: ../input/detectron-05/whls
+34.1s 24 Processing /kaggle/input/detectron-05/whls/fvcore-0.1.5.post20211019/fvcore-0.1.5.post20211019
+34.1s 25 [33m  DEPRECATION: A future pip version will change local packages to be built in-place without first copying to a temporary directory. We recommend you use --use-feature=in-tree-build to test your packages with this new behavior before it becomes the default.
+34.1s 26 pip 21.3 will remove support for this functionality. You can find discussion regarding this at https://github.com/pypa/pip/issues/7555.[0m
+35.2s 27 Requirement already satisfied: numpy in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (1.19.5)
+35.2s 28 Requirement already satisfied: yacs>=0.1.6 in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (0.1.8)
+35.2s 29 Requirement already satisfied: pyyaml>=5.1 in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (5.4.1)
+35.2s 30 Requirement already satisfied: tqdm in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (4.62.3)
+35.2s 31 Requirement already satisfied: termcolor>=1.1 in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (1.1.0)
+35.2s 32 Requirement already satisfied: Pillow in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (8.2.0)
+35.2s 33 Requirement already satisfied: tabulate in /opt/conda/lib/python3.7/site-packages (from fvcore==0.1.5.post20211019) (0.8.9)
+35.2s 34 Processing /kaggle/input/detectron-05/whls/iopath-0.1.9-py3-none-any.whl
+35.2s 35 Requirement already satisfied: portalocker in /opt/conda/lib/python3.7/site-packages (from iopath>=0.1.7->fvcore==0.1.5.post20211019) (2.3.2)
+35.3s 36 Building wheels for collected packages: fvcore
+36.7s 37 Building wheel for fvcore (setup.py) ... [?25l- \ done
+36.7s 38 [?25h  Created wheel for fvcore: filename=fvcore-0.1.5.post20211019-py3-none-any.whl size=60878 sha256=89893e32b2ec4f28052b9be975e03cd8248cc839a36378d19447aaf24c99e5a5
+36.7s 39 Stored in directory: /root/.cache/pip/wheels/ba/23/7f/50fe782028a2bb7f9d8b13585c0a0a1723a7a3adb53cf3d1b6
+36.7s 40 Successfully built fvcore
+43.5s 41 Installing collected packages: iopath, fvcore
+43.9s 42 Successfully installed fvcore-0.1.5.post20211019 iopath-0.1.9
+43.9s 43 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
+45.8s 44 Looking in links: ../input/detectron-05/whls
+45.9s 45 Processing /kaggle/input/detectron-05/whls/antlr4-python3-runtime-4.8/antlr4-python3-runtime-4.8
+45.9s 46 [33m  DEPRECATION: A future pip version will change local packages to be built in-place without first copying to a temporary directory. We recommend you use --use-feature=in-tree-build to test your packages with this new behavior before it becomes the default.
+45.9s 47 pip 21.3 will remove support for this functionality. You can find discussion regarding this at https://github.com/pypa/pip/issues/7555.[0m
+47.3s 48 Building wheels for collected packages: antlr4-python3-runtime
+48.5s 49 Building wheel for antlr4-python3-runtime (setup.py) ... [?25l- \ done
+48.5s 50 [?25h  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.8-py3-none-any.whl size=141230 sha256=5be6c0141ecc39ef5025ddee13548373321acd5b5b111b733f9a0a17b52e103c
+48.5s 51 Stored in directory: /root/.cache/pip/wheels/6e/9c/5b/9e8e1e06147cb3b136c1ee5a7becab5e221e799fd0fb56d4e8
+48.5s 52 Successfully built antlr4-python3-runtime
+55.4s 53 Installing collected packages: antlr4-python3-runtime
+55.8s 54 Successfully installed antlr4-python3-runtime-4.8
+55.8s 55 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
+57.8s 56 Looking in links: ../input/detectron-05/whls
+57.8s 57 Processing /kaggle/input/detectron-05/whls/detectron2-0.5/detectron2
+57.8s 58 [33m  DEPRECATION: A future pip version will change local packages to be built in-place without first copying to a temporary directory. We recommend you use --use-feature=in-tree-build to test your packages with this new behavior before it becomes the default.
+57.8s 59 pip 21.3 will remove support for this functionality. You can find discussion regarding this at https://github.com/pypa/pip/issues/7555.[0m
+64.7s 60 Requirement already satisfied: Pillow>=7.1 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (8.2.0)
+64.7s 61 Requirement already satisfied: matplotlib in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (3.4.3)
+64.7s 62 Requirement already satisfied: pycocotools>=2.0.2 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (2.0.2)
+64.7s 63 Requirement already satisfied: termcolor>=1.1 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (1.1.0)
+64.7s 64 Requirement already satisfied: yacs>=0.1.8 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (0.1.8)
+64.7s 65 Requirement already satisfied: tabulate in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (0.8.9)
+64.7s 66 Requirement already satisfied: cloudpickle in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (2.0.0)
+64.7s 67 Requirement already satisfied: tqdm>4.29.0 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (4.62.3)
+64.7s 68 Requirement already satisfied: tensorboard in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (2.6.0)
+64.7s 69 Requirement already satisfied: fvcore<0.1.6,>=0.1.5 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (0.1.5.post20211019)
+64.7s 70 Requirement already satisfied: iopath<0.1.10,>=0.1.7 in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (0.1.9)
+64.7s 71 Requirement already satisfied: future in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (0.18.2)
+64.7s 72 Requirement already satisfied: pydot in /opt/conda/lib/python3.7/site-packages (from detectron2==0.5) (1.4.2)
+64.8s 73 Processing /kaggle/input/detectron-05/whls/omegaconf-2.1.1-py3-none-any.whl
+64.8s 74 Processing /kaggle/input/detectron-05/whls/hydra_core-1.1.1-py3-none-any.whl
+64.8s 75 Processing /kaggle/input/detectron-05/whls/black-21.4b2-py3-none-any.whl
+64.8s 76 Requirement already satisfied: regex>=2020.1.8 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (2021.8.28)
+64.8s 77 Requirement already satisfied: pathspec<1,>=0.8.1 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (0.9.0)
+64.9s 78 Requirement already satisfied: typing-extensions>=3.7.4 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (3.10.0.2)
+64.9s 79 Requirement already satisfied: click>=7.1.2 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (8.0.1)
+64.9s 80 Requirement already satisfied: typed-ast>=1.4.2 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (1.4.3)
+64.9s 81 Requirement already satisfied: appdirs in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (1.4.4)
+64.9s 82 Requirement already satisfied: mypy-extensions>=0.4.3 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (0.4.3)
+64.9s 83 Requirement already satisfied: toml>=0.10.1 in /opt/conda/lib/python3.7/site-packages (from black==21.4b2->detectron2==0.5) (0.10.2)
+64.9s 84 Requirement already satisfied: importlib-metadata in /opt/conda/lib/python3.7/site-packages (from click>=7.1.2->black==21.4b2->detectron2==0.5) (4.8.1)
+64.9s 85 Requirement already satisfied: numpy in /opt/conda/lib/python3.7/site-packages (from fvcore<0.1.6,>=0.1.5->detectron2==0.5) (1.19.5)
+64.9s 86 Requirement already satisfied: pyyaml>=5.1 in /opt/conda/lib/python3.7/site-packages (from fvcore<0.1.6,>=0.1.5->detectron2==0.5) (5.4.1)
+64.9s 87 Requirement already satisfied: antlr4-python3-runtime==4.8 in /opt/conda/lib/python3.7/site-packages (from hydra-core>=1.1->detectron2==0.5) (4.8)
+64.9s 88 Requirement already satisfied: importlib-resources in /opt/conda/lib/python3.7/site-packages (from hydra-core>=1.1->detectron2==0.5) (5.2.2)
+64.9s 89 Requirement already satisfied: portalocker in /opt/conda/lib/python3.7/site-packages (from iopath<0.1.10,>=0.1.7->detectron2==0.5) (2.3.2)
+64.9s 90 Requirement already satisfied: setuptools>=18.0 in /opt/conda/lib/python3.7/site-packages (from pycocotools>=2.0.2->detectron2==0.5) (58.0.4)
+64.9s 91 Requirement already satisfied: cython>=0.27.3 in /opt/conda/lib/python3.7/site-packages (from pycocotools>=2.0.2->detectron2==0.5) (0.29.24)
+64.9s 92 Requirement already satisfied: pyparsing>=2.2.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib->detectron2==0.5) (2.4.7)
+64.9s 93 Requirement already satisfied: cycler>=0.10 in /opt/conda/lib/python3.7/site-packages (from matplotlib->detectron2==0.5) (0.10.0)
+64.9s 94 Requirement already satisfied: kiwisolver>=1.0.1 in /opt/conda/lib/python3.7/site-packages (from matplotlib->detectron2==0.5) (1.3.2)
+64.9s 95 Requirement already satisfied: python-dateutil>=2.7 in /opt/conda/lib/python3.7/site-packages (from matplotlib->detectron2==0.5) (2.8.0)
+64.9s 96 Requirement already satisfied: six in /opt/conda/lib/python3.7/site-packages (from cycler>=0.10->matplotlib->detectron2==0.5) (1.16.0)
+65.0s 97 Requirement already satisfied: zipp>=0.5 in /opt/conda/lib/python3.7/site-packages (from importlib-metadata->click>=7.1.2->black==21.4b2->detectron2==0.5) (3.5.0)
+65.1s 98 Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (0.4.6)
+65.1s 99 Requirement already satisfied: tensorboard-data-server<0.7.0,>=0.6.0 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (0.6.1)
+65.1s 100 Requirement already satisfied: wheel>=0.26 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (0.37.0)
+65.1s 101 Requirement already satisfied: grpcio>=1.24.3 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (1.38.1)
+65.1s 102 Requirement already satisfied: markdown>=2.6.8 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (3.3.4)
+65.1s 103 Requirement already satisfied: protobuf>=3.6.0 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (3.18.1)
+65.1s 104 Requirement already satisfied: tensorboard-plugin-wit>=1.6.0 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (1.8.0)
+65.1s 105 Requirement already satisfied: requests<3,>=2.21.0 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (2.25.1)
+65.1s 106 Requirement already satisfied: werkzeug>=0.11.15 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (2.0.1)
+65.1s 107 Requirement already satisfied: absl-py>=0.4 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (0.14.0)
+65.1s 108 Requirement already satisfied: google-auth<2,>=1.6.3 in /opt/conda/lib/python3.7/site-packages (from tensorboard->detectron2==0.5) (1.35.0)
+65.2s 109 Requirement already satisfied: rsa<5,>=3.1.4 in /opt/conda/lib/python3.7/site-packages (from google-auth<2,>=1.6.3->tensorboard->detectron2==0.5) (4.7.2)
+65.2s 110 Requirement already satisfied: pyasn1-modules>=0.2.1 in /opt/conda/lib/python3.7/site-packages (from google-auth<2,>=1.6.3->tensorboard->detectron2==0.5) (0.2.7)
+65.2s 111 Requirement already satisfied: cachetools<5.0,>=2.0.0 in /opt/conda/lib/python3.7/site-packages (from google-auth<2,>=1.6.3->tensorboard->detectron2==0.5) (4.2.2)
+65.2s 112 Requirement already satisfied: requests-oauthlib>=0.7.0 in /opt/conda/lib/python3.7/site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard->detectron2==0.5) (1.3.0)
+65.2s 113 Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /opt/conda/lib/python3.7/site-packages (from pyasn1-modules>=0.2.1->google-auth<2,>=1.6.3->tensorboard->detectron2==0.5) (0.4.8)
+65.2s 114 Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard->detectron2==0.5) (2021.10.8)
+65.2s 115 Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/conda/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard->detectron2==0.5) (1.26.6)
+65.2s 116 Requirement already satisfied: idna<3,>=2.5 in /opt/conda/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard->detectron2==0.5) (2.10)
+65.2s 117 Requirement already satisfied: chardet<5,>=3.0.2 in /opt/conda/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard->detectron2==0.5) (4.0.0)
+65.3s 118 Requirement already satisfied: oauthlib>=3.0.0 in /opt/conda/lib/python3.7/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard->detectron2==0.5) (3.1.1)
+65.4s 119 Building wheels for collected packages: detectron2
+253.8s 120 Building wheel for detectron2 (setup.py) ... [?25l- \ | / - \ | / - \ | / - \ | / - \ | done
+253.8s 121 [?25h  Created wheel for detectron2: filename=detectron2-0.5-cp37-cp37m-linux_x86_64.whl size=5726940 sha256=78ea8c5de92df3fa737978c8b6053993021dca7c8dd3089c216684913cdeab08
+253.8s 122 Stored in directory: /tmp/pip-ephem-wheel-cache-w65cuoz1/wheels/2c/7c/aa/9abf8b469a63a1d1e55f84a4eb7afea06d3399564584ea464a
+253.8s 123 Successfully built detectron2
+260.8s 124 Installing collected packages: omegaconf, hydra-core, black, detectron2
+261.1s 125 Attempting uninstall: black
+261.1s 126 Found existing installation: black 21.9b0
+261.1s 127 Uninstalling black-21.9b0:
+270.8s 128 Successfully uninstalled black-21.9b0
+271.9s 129 Successfully installed black-21.4b2 detectron2-0.5 hydra-core-1.1.1 omegaconf-2.1.1
+271.9s 130 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
+280.5s 131 /opt/conda/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+280.5s 132 To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /usr/local/src/pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+280.5s 133 return torch.floor_divide(self, other)
+326.7s 134 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+326.7s 135 FutureWarning,
+326.7s 136 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+326.9s 137 [NbConvertApp] Writing 863870 bytes to __notebook__.ipynb
+329.9s 138 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+329.9s 139 FutureWarning,
+329.9s 140 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+330.6s 141 [NbConvertApp] Support files will be in __results___files/
+330.6s 142 [NbConvertApp] Making directory __results___files
+330.6s 143 [NbConvertApp] Writing 315317 bytes to __results__.html
