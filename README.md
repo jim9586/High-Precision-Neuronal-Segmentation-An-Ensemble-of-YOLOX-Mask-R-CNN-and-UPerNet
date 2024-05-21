@@ -29,5 +29,5 @@ Li, Z., Yin, Y., Wei, Z., Luo, Y., Xu, G., & Xie, Y. (2024). High-Precision Neur
 3. 
 4. 
 5. 
-6. 
+6. [Ying Xie](https://github.com/Florax1218) 
 
